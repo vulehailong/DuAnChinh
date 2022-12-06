@@ -45,9 +45,6 @@ public class DoiMatKhau_Fragment extends Fragment {
                     ThanhVienDAO thanhVienDAO = new ThanhVienDAO(getContext());
                     boolean check = thanhVienDAO.capNhatMatKhau(sdt, oldPass, newPass);
                     if (check == true){
-                        Toast.makeText(getContext(), "00", Toast.LENGTH_SHORT).show();
-                        Toast.makeText(getContext(), "00", Toast.LENGTH_SHORT).show();
-                        Toast.makeText(getContext(), "00", Toast.LENGTH_SHORT).show();
                         Toast.makeText(getContext(), "Cập nhật mật khẩu thành công", Toast.LENGTH_SHORT).show();
                     }else {
                         Toast.makeText(getContext(), "Cập nhật mật khẩu thất bại", Toast.LENGTH_SHORT).show();
