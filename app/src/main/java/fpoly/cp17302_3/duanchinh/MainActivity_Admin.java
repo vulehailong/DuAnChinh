@@ -139,6 +139,7 @@ public class MainActivity_Admin extends AppCompatActivity {
 
             Log.d(">>>TAGDATAMAIN",""+tenphim+"\n"+theloai+ngay+"\n"+gio);
             ChuyenFG(tenphim,theloai, gio, ngay);
+
         }
     };
 
